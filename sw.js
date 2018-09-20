@@ -9,7 +9,8 @@ self.addEventListener('install', function(e) {
        'Poster-Grid-Abstract-by-Hoogspanningsnet.com_.pdf',
        'pdf.js',
        'pdf.worker.js',
-       'main.js'
+       'main.js',
+       'style.css'
      ]);
    })
  );
