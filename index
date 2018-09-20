@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>PDF</title>
+</head>
+<body>
+    <div id="page">
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <script src="js/pdf.js"></script>
+    <script src="js/pdf.worker.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
