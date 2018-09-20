@@ -4,7 +4,7 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('pdf_embed_pdf_js').then(function(cache) {
      return cache.addAll([
-       '/',
+       '/pdf_sw/',
        'index.html',
        'Poster-Grid-Abstract-by-Hoogspanningsnet.com_.pdf',
        'pdf.js',
