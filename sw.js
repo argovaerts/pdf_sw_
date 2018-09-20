@@ -2,7 +2,7 @@ importScripts('cache-polyfill.js');
 
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('pdf_embed_google_docs').then(function(cache) {
+   caches.open('pdf_embed_pdf_js').then(function(cache) {
      return cache.addAll([
        '/',
        'index.html',
