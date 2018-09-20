@@ -64,7 +64,7 @@
       return Promise.all(
         requests.map(function(request) {
           if (typeof request === 'string') {
-            request = new Request(request, {mode: 'cors'}); // added cors mode
+            request = new Request(request);
           }
 
           var scheme = new URL(request.url).protocol;
