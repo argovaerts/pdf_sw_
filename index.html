@@ -10,5 +10,12 @@
     <script src="pdf.js"></script>
     <script src="pdf.worker.js"></script>
     <script src="main.js"></script>
+    <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </body>
 </html>
