@@ -2,11 +2,11 @@ importScripts('cache-polyfill.js');
 
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('pdf_embed_pdf_js').then(function(cache) {
+   caches.open('pdf_embed').then(function(cache) {
      return cache.addAll([
        '/pdf_sw_/',
        'index.html',
-       'Poster-Grid-Abstract-by-Hoogspanningsnet.com_.pdf',
+       'sample-3pp.pdf',
        'pdf.js',
        'pdf.worker.js',
        'main.js',
