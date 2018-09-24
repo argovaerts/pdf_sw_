@@ -12,8 +12,6 @@ canvas, object{
     display: inline-block;
 }
 canvas {
-    /*overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;*/
     max-width: 100%;
 }
 .fallback{
