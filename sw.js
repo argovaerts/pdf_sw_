@@ -4,7 +4,7 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('pdf_embed').then(function(cache) {
      return cache.addAll([
-       '/pdf_sw_/',
+       '/',
        'index.html',
        'sample-3pp.pdf',
        'pdf.js',
