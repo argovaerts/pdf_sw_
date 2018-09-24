@@ -10,6 +10,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <nav class="buttons">
+        <ul>
+            <li><a href="#" onclick="openPrevPage();">Vorige</a></li>
+            <li><a href="#" onclick="openNextPage();">Volgende</a></li>
+        </ul>
+    </nav>
     <div id="page">
         <canvas id="canvas"></canvas>
         <noscript>
@@ -20,7 +26,6 @@
             </object>
         </noscript>
     </div>
-    <p><a href="#" onclick="openPrevPage();">Vorige</a> <a href="#" onclick="openNextPage();">Volgende</a></p>
     <script src="pdf.js"></script>
     <script src="pdf.worker.js"></script>
     <script src="main.js"></script>
