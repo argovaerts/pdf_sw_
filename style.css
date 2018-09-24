@@ -11,6 +11,10 @@
 canvas, object{
     display: inline-block;
 }
+canvas {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
 .fallback{
     width: 100%;
     height: 100%;
