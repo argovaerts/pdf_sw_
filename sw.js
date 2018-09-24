@@ -7,7 +7,7 @@ self.addEventListener('install', function(e) {
        '/',
        'index.html',
        'sample-3pp.pdf',
-       'pdf.min.js',
+       'pdf.js',
        'pdf.worker.js',
        'main.min.js',
        'style.min.css'
