@@ -10,21 +10,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="center">
-        <div class="pagination">
-            <a href="#" onclick="openPrevPage();">❮</a>
-            <a href="#" onclick="openNextPage();">❯</a>
+    <div class="content">
+        <div class="center">
+            <div class="pagination">
+                <a href="#" onclick="openPrevPage();">❮</a>
+                <a href="#" onclick="openNextPage();">❯</a>
+            </div>
         </div>
-    </div>
-    <div id="page">
-        <canvas id="canvas"></canvas>
-        <noscript>
-            <object class="fallback" data="sample-3pp.pdf" type="application/pdf">
-                <iframe class="fallback" src="sample-3pp.pdf">
-                <p>Deze browser ondersteund geen PDF. U kan deze hier downloaden: <a href="sample-3pp.pdf">Download PDF</a></p>
-                </iframe>
-            </object>
-        </noscript>
+        <div id="page">
+            <canvas id="canvas"></canvas>
+            <noscript>
+                <object class="fallback" data="sample-3pp.pdf" type="application/pdf">
+                    <iframe class="fallback" src="sample-3pp.pdf">
+                    <p>Deze browser ondersteund geen PDF. U kan deze hier downloaden: <a href="sample-3pp.pdf">Download PDF</a></p>
+                    </iframe>
+                </object>
+            </noscript>
+        </div>
     </div>
     <script src="pdf.js"></script>
     <script src="pdf.worker.js"></script>
