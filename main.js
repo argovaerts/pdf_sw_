@@ -101,8 +101,8 @@ var openPage = function(pdfFile, pageNumber) {
       viewport = page.getViewport(scale);
     }
 
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
+    canvas.height = viewport.height * 0,5;
+    canvas.width = viewport.width * 0,5;
 
     var renderContext = {
       canvasContext: context,
