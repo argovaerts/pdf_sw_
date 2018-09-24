@@ -7,7 +7,7 @@
     <meta name="keywords" content="pdf">
     <meta name="author" content="Arne Govaerts">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.min.css">
 </head>
 <body>
     <div class="content">
@@ -28,13 +28,13 @@
             </noscript>
         </div>
     </div>
-    <script src="pdf.js"></script>
+    <script src="pdf.min.js"></script>
     <script src="pdf.worker.js"></script>
-    <script src="main.js"></script>
+    <script src="main.min.js"></script>
     <script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
-               .register('sw.js')
+               .register('sw.min.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
     </script>
