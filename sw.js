@@ -7,10 +7,10 @@ self.addEventListener('install', function(e) {
        '/',
        'index.html',
        'sample-3pp.pdf',
-       'pdf.js',
+       'pdf.min.js',
        'pdf.worker.js',
-       'main.js',
-       'style.css'
+       'main.min.js',
+       'style.min.css'
      ]);
    })
  );
