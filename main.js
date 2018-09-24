@@ -113,9 +113,16 @@ var openPage = function(pdfFile, pageNumber) {
   });
 };
 
+var getPageFromSearch = function() {
+  var s = window.location.search.split('=');
+  if(!isNaN(s[1]){
+    currPageNumber = s[1];
+  }
+}
+
 PDFJS.disableStream = true;
 PDFJS.getDocument('sample-3pp.pdf').then(function(pdf) {
   pdfFile = pdf;
-
+  getPageFromSearch();
   openPage(pdf, currPageNumber, 1);
 });
