@@ -1,5 +1,7 @@
+.content {
+    margin: 5%;   
+}
 #page{
-    margin: 5%;
     box-shadow: 0px 0px 5px 5px #2A2A2A;
     text-align: center;
 }
