@@ -97,7 +97,7 @@ var openPage = function(pdfFile, pageNumber) {
     viewport = page.getViewport(1);
 
     if (zoomed) {
-      var scale = pageElement.clientWidth / viewport.width;
+      var scale = (pageElement.clientWidth * 72) / (viewport.width * 96);
       viewport = page.getViewport(scale);
     }
 
