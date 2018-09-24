@@ -113,11 +113,8 @@ var openPage = function(pdfFile, pageNumber) {
   });
 };
 
-
-
 PDFJS.disableStream = true;
 PDFJS.getDocument('sample-3pp.pdf').then(function(pdf) {
   pdfFile = pdf;
-  getPageFromSearch();
   openPage(pdf, currPageNumber, 1);
 });
