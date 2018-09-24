@@ -13,7 +13,7 @@ canvas, object{
 iframe.fallback{
     border: none;   
 }
-@media not scripting{
+@media (scripting: none) {
     .buttons{
            display: none;
     }
