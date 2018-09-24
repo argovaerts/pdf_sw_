@@ -10,12 +10,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav class="buttons">
-        <ul>
-            <li><a href="#" onclick="openPrevPage();">Vorige</a></li>
-            <li><a href="#" onclick="openNextPage();">Volgende</a></li>
-        </ul>
-    </nav>
+    <div class="pagination">
+        <a href="#" onclick="openPrevPage();">Vorige</a>
+        <a href="#" onclick="openNextPage();">Volgende</a>
+    </div>
     <div id="page">
         <canvas id="canvas"></canvas>
         <noscript>
