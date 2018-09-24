@@ -89,15 +89,15 @@ var toggleZoom = function () {
   openPage(pdfFile, currPageNumber);
 };
 
-var fitScale = 0.8;
+var fitScale = 1;
 var openPage = function(pdfFile, pageNumber) {
-  var scale = zoomed ? fitScale : 0.8;
+  var scale = zoomed ? fitScale : 1;
 
   pdfFile.getPage(pageNumber).then(function(page) {
     viewport = page.getViewport(1);
 
     if (zoomed) {
-      var scale = (pageElement.clientWidth * 72) / (viewport.width * 96);
+      var scale = pageElement.clientWidth / viewport.width;
       viewport = page.getViewport(scale);
     }
 
