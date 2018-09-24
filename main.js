@@ -118,7 +118,7 @@ var getPageFromSearch = function() {
   if(!isNaN(s[1]){
     currPageNumber = s[1];
   }
-}
+};
 
 PDFJS.disableStream = true;
 PDFJS.getDocument('sample-3pp.pdf').then(function(pdf) {
