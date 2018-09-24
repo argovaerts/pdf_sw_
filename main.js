@@ -14,7 +14,7 @@ var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
 var pageElement = document.getElementById('page');
 
-var reachedEdge = false;
+/*var reachedEdge = false;
 var touchStart = null;
 var touchDown = false;
 
@@ -62,7 +62,7 @@ pageElement.addEventListener('touchmove', function(e) {
 pageElement.addEventListener('touchend', function(e) {
   touchStart = null;
   touchDown = false;
-});
+}); */
 
 var pdfFile;
 var currPageNumber = 1;
