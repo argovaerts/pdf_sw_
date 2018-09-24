@@ -1,10 +1,10 @@
 #page{
     margin: 5%;
     box-shadow: 0px 0px 5px 5px #2A2A2A;
+    text-align: center;
 }
-canvas{
-    width: 50%;
-    margin: 0 auto;
+canvas, object{
+    display: inline-block;
 }
 .fallback{
     width: 100%;
