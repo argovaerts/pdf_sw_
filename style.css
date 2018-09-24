@@ -38,7 +38,7 @@ iframe.fallback{
     border: 1px solid #4CAF50;
 }
 @media (scripting: none) {
-    .pagination, .button {
+    .pagination {
            display: none;
     }
 }
