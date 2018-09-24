@@ -16,7 +16,7 @@ canvas {
 }
 .fallback{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 iframe.fallback{
     border: none;   
