@@ -6,7 +6,7 @@ self.addEventListener('install', function(e) {
      return cache.addAll([
        '/',
        'index.html',
-       'sample-3pp.pdf',
+       'PROGRAMMA_DEEL1.pdf',
        'pdf.js',
        'pdf.worker.js',
        'main.min.js',
