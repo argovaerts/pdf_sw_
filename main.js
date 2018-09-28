@@ -114,7 +114,7 @@ var openPage = function(pdfFile, pageNumber) {
 };
 
 PDFJS.disableStream = true;
-PDFJS.getDocument('sample-3pp.pdf').then(function(pdf) {
+PDFJS.getDocument('PROGRAMMA_DEEL1.pdf').then(function(pdf) {
   pdfFile = pdf;
   openPage(pdf, currPageNumber, 1);
 });
